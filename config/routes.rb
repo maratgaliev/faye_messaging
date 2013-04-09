@@ -12,4 +12,6 @@ TaborMessaging::Application.routes.draw do
 
   get  '/chatroom' => 'chats#room', :as => :chat
 
+  post '/new_message' => 'chats#new_message', :as => :new_message
+
 end

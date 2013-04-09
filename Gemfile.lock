@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/ryanb/private_pub.git
+  revision: 7ad77617b1f48980d6f114bc96018f2964a07bdc
+  specs:
+    private_pub (1.0.3)
+      faye
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -129,6 +136,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   faye
   jquery-rails
+  private_pub!
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   sqlite3
